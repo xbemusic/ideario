@@ -3,12 +3,12 @@ background-color: rgba(0, 0, 0, 0.87);
 }
 
 .container {
-background-color: #141414;
+background-color: rgba(20, 20, 20, 0.47);
 margin: auto;
-padding: 5px;
-width: 43%;
-height: 80%;
-border: 2px solid rgb(7, 79, 110);
+padding: 40px;
+    padding-top: 8px;
+width: 450px;
+height: auto;
 border-radius: 5px;
 }
 
@@ -23,4 +23,5 @@ p {
 color: rgb(147, 147, 147);
 font-family: "Courier New";
 }
+
 
