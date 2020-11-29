@@ -1,20 +1,24 @@
 body {
-    background-color: rgba(0, 0, 0, 0.87);
+background-color: rgba(0, 0, 0, 0.87);
 }
 
 .container {
-    background-color: #000;
-    margin: auto;
-    padding: 10px;
-    width: 43%;
-    height: 80%;
-    border: 2px solid rgb(7, 79, 110);
-    border-radius: 5px;
+background-color: #000;
+margin: auto;
+padding: 10px;
+width: 43%;
+height: 80%;
+border: 2px solid rgb(7, 79, 110);
+border-radius: 5px;
 }
 
 h1 { 
-  font-family: 'Martel', serif; 
-  font-weight: 800; 
-  font-size: 1.4em; 
-  color: #008778;
+font-family: 'Martel', serif; 
+font-weight: 800; 
+font-size: 1.4em; 
+color: #008778;
+}
+
+p {
+color: rgb(0, 255, 243);
 }
