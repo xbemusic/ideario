@@ -12,11 +12,11 @@ border: 2px solid rgb(7, 79, 110);
 border-radius: 5px;
 }
 
-h1 { 
-font-family: 'Martel', serif; 
-font-weight: 800; 
-font-size: 1.4em; 
-color: #008778;
+h1 {
+    font-family: 'Martel', serif;
+    font-weight: 800;
+    font-size: 1.4em;
+    color: #5bc9ff;
 }
 
 p {
