@@ -7,15 +7,15 @@ body {
   margin: auto;
   padding: 40px;
   padding-top: 8px;
-  width: 450px;
+  width: 650px;
   height: auto;
   border-radius: 5px;
 }
 
 h1 {
-  font-family: 'Martel', serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: 200;
-  font-size: 2.em;
+  font-size: 3em;
   color: #5bc9ff;
 }
 
@@ -23,4 +23,5 @@ p {
   color: rgb(195, 195, 195);
   font-family: 'Nanum Gothic';
   font-weight: 400;
+    font-size: 1.5em;
 }
