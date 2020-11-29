@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  background-color: red;
+  background-color: #333;
   margin: auto;
   width: 50%;
   height: 80%;
@@ -13,6 +13,5 @@ h1 {
   font-family: 'Martel', serif; 
   font-weight: 800; 
   font-size: 1.4em; 
-  color: #008778; 
-  text-shadow: 2px 1px 2px #001a2d; 
+  color: #008778;
 }
