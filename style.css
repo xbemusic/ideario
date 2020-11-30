@@ -3,11 +3,11 @@ body {
 }
 
 .logo {
-  margin: auto;
-  width: 400px;
-  background: goldenrod;
-  padding: 5px;
-  border-radius: 10px;
+    margin: auto;
+    width: 330px;
+    background: rgb(207, 148, 0);
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .container {
