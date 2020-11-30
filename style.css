@@ -2,6 +2,14 @@ body {
     background-color: rgba(0, 0, 0, 0.86);
   }
 
+  .logo {
+    margin: auto;
+    width: 400px;
+    background: goldenrod;
+    padding: 5px;
+    border-radius: 10px;
+}
+
   .container {
     text-align: left;
     margin: auto;
