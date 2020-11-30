@@ -28,7 +28,7 @@ body {
     font-size: 1.3em;
   }
 
-.somelink .somelink:visited {
+a {
   color: rgb(195, 195, 195);
   font-family: 'Vollkorn', serif;
   font-weight: 400;
