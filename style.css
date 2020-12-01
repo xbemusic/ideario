@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(7, 66, 52, 0.86);
+    background-color: rgba(0, 138, 110, 1);
 }
 
 .logo {
@@ -35,17 +35,17 @@ body {
 }
 
 .container {
-  text-align: left;
-  height: auto;
-  /* min-height: 95%; */
-  /* width: 500px; */
-  /* max-width: 80%; */
-  /* margin: auto; */
-  padding-left: 35px;
-  padding-top: 1px;
-  padding-bottom: 10px;
-  /* background: rgba(0, 255, 235, 0.02); */
-  border-left: 4px solid rgb(0, 37, 52);
+    text-align: left;
+    height: auto;
+    /* min-height: 95%; */
+    /* width: 500px; */
+    max-width: 80%;
+    /* margin: auto; */
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background: rgba(7, 85, 79, 1);
+    border-left: 4px solid rgb(0, 37, 52);
 }
 
 .topbar {
