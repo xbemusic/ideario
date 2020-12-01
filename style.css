@@ -55,10 +55,10 @@ h1 {
 }
 
 p {
-  color: rgb(195, 195, 195);
-  font-family: 'Vollkorn', serif;
-  font-weight: 400;
-  font-size: 1.4em;
+    color: rgb(0, 33, 51);
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    font-size: 1.4em;
 }
 
 a {
