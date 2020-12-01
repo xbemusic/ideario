@@ -13,18 +13,19 @@ body {
   min-height: 100%;
 }
 
-.maincontainer {
-  text-align: center;
-  padding: 5px;
-  padding-bottom: 15px;
-  height: auto;
-  border-left: 5px solid rgb(0, 141, 177);
-  border-radius: 0px 5px 5px 0px;
-  box-shadow: 0 0 30px rgb(0, 37, 23);
-  background: rgba(0, 111, 102, 1);
+.contenedor_inicio {
+    text-align: center;
+    padding: 2em;
+    padding-top: 1em;
+    height: auto;
+    border: 1px solid rgb(0, 141, 177);
+    border-left: 5px solid rgb(0, 141, 177);
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0 0 30px rgb(0, 37, 23);
+    background: rgba(0, 111, 102, 1);
 }
 
-.container {
+.contenedor_post {
   text-align: left;
   height: auto;
   padding-left: 2em;
