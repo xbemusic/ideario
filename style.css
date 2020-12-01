@@ -14,37 +14,37 @@ body {
 }
 
 .contenedor_inicio {
-    text-align: center;
-    padding: 2em;
-    padding-top: 1em;
-    height: auto;
-    border: 1px solid rgb(0, 141, 177);
-    border-left: 5px solid rgb(0, 141, 177);
-    border-radius: 0px 5px 5px 0px;
-    box-shadow: 0 0 30px rgb(0, 37, 23);
-    background: rgba(26, 125, 114, 1);
+  text-align: center;
+  padding: 2em;
+  padding-top: 1em;
+  height: auto;
+  border: 1px solid rgb(0, 141, 177);
+  border-left: 5px solid rgb(0, 141, 177);
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 0 0 30px rgb(0, 37, 23);
+  background: rgba(26, 125, 114, 1);
 }
 
 .contenedor_post {
-    text-align: left;
-    height: auto;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    border: 1px solid rgb(0, 141, 177);
-    border-left: 5px solid rgb(0, 141, 177);
-    border-radius: 0px 5px 5px 0px;
-    box-shadow: 10px 0 20px rgba(0, 37, 23, 0.55);
-    background: rgba(26, 125, 114, 1);
+  text-align: left;
+  height: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border: 1px solid rgb(0, 141, 177);
+  border-left: 5px solid rgb(0, 141, 177);
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 10px 0 20px rgba(0, 37, 23, 0.55);
+  background: rgba(26, 125, 114, 1);
 }
 
 .nombre {
-    font-family: 'Vollkorn SC', serif;
-    font-weight: 500;
-    color: #003329;
-    font-size: 5em;
-    margin: 0em;
+  font-family: 'Vollkorn SC', serif;
+  font-weight: 500;
+  color: #003329;
+  font-size: 5em;
+  margin: 0em;
 }
 
 .firma {
@@ -61,7 +61,7 @@ h1 {
 }
 
 p {
-  color: rgb(0, 52, 55);
+  color: #033332;
   font-family: 'Vollkorn', serif;
   font-weight: 400;
   font-size: 1.4em;
@@ -69,7 +69,7 @@ p {
 
 a {
   color: rgb(195, 195, 195);
-font-family: 'Special Elite', cursive;
+  font-family: 'Special Elite', cursive;
   font-weight: 100;
   text-decoration: none;
   /* border-bottom: 3px solid rgb(128, 128, 128); */
@@ -78,7 +78,7 @@ font-family: 'Special Elite', cursive;
 
 a:hover {
   color: #00bb96;
-font-family: 'Special Elite', cursive;
+  font-family: 'Special Elite', cursive;
   font-weight: 100;
   text-decoration: none;
   /* border-bottom: 3px solid rgb(128, 128, 128); */
