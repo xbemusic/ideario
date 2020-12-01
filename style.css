@@ -14,15 +14,11 @@ body {
 }
 
 .contenedor_inicio {
-  text-align: center;
-  padding: 2em;
-  /* padding-top: 1em; */
-  height: auto;
-  border: 2px solid rgba(0, 38, 34, 1);
-  /* border-left: 5px solid rgba(26, 125, 114, 1); */
-  /* border-radius: 0px 5px 5px 0px; */
-  box-shadow: 4px 4px 6px rgba(0, 25, 25, 0.5);
-  /* background: rgba(70, 70, 70, 1); */
+    text-align: center;
+    padding: 2em;
+    height: auto;
+    border: 2px dotted rgba(0, 38, 34, 1);
+    border-radius: 5;
 }
 
 .contenedor_post {
@@ -72,7 +68,6 @@ p {
   font-family: 'Special Elite', cursive;
   font-weight: 100;
   text-decoration: none;
-  /* border-bottom: 3px solid rgb(128, 128, 128); */
   font-size: 2em;
 }
 
@@ -81,7 +76,6 @@ p {
   font-family: 'Special Elite', cursive;
   font-weight: 100;
   text-decoration: none;
-  /* border-bottom: 3px solid rgb(128, 128, 128); */
   font-size: 2em;
 }
 
@@ -90,7 +84,6 @@ p {
   font-family: 'Special Elite', cursive;
   font-weight: 100;
   text-decoration: none;
-  /* border-bottom: 3px solid rgb(128, 128, 128); */
   font-size: 1.7em;
 }
 
@@ -99,6 +92,5 @@ p {
   font-family: 'Special Elite', cursive;
   font-weight: 100;
   text-decoration: none;
-  /* border-bottom: 3px solid rgb(128, 128, 128); */
   font-size: 1.7em;
 }
