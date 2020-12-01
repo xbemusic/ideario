@@ -83,3 +83,12 @@ a {
   /* border-bottom: 3px solid rgb(128, 128, 128); */
   font-size: 1.7em;
 }
+
+a:hover {
+  color: rgb(195, 195, 195);
+  font-family: 'Courier';
+  font-weight: 100;
+  text-decoration: none;
+  /* border-bottom: 3px solid rgb(128, 128, 128); */
+  font-size: 1.7em;
+}
