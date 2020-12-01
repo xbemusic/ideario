@@ -63,8 +63,8 @@ p {
 
 a {
     color: rgb(195, 195, 195);
-    font-family: 'LUCKY TYPEWRITER', serif;
-    font-weight: 400;
-    text-decoration: none;
-    font-size: 1.4em;
+    font-family: 'Times';
+    font-weight: 100;
+    text-decoration: underline;
+    font-size: 2.0em;
 }
