@@ -69,6 +69,7 @@ p {
     font-size: 2em;
     background: rgb(255, 0, 127);
     padding: 0.22em;
+    border-radius: 0.15em;
 }
 
 .a_inicio:hover {
@@ -79,6 +80,7 @@ p {
     font-size: 2em;
     background: rgb(93, 51, 153);
     padding: 0.22em;
+    border-radius: 0.15em;
 }
 
 .a_post {
