@@ -17,7 +17,7 @@ body {
     text-align: center;
     padding: 2em;
     height: auto;
-    border: 2px dotted rgba(0, 38, 34, 1);
+    /* border: 2px dotted rgba(0, 38, 34, 1); */
     border-radius: 5px;
 }
 
@@ -64,19 +64,19 @@ p {
 }
 
 .a_inicio {
-  color: rgb(121, 87, 0);
-  font-family: 'Special Elite', cursive;
-  font-weight: 100;
-  text-decoration: none;
-  font-size: 2em;
+    color: rgb(0, 102, 81);
+    font-family: 'Special Elite', cursive;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 2em;
 }
 
 .a_inicio:hover {
-  color: rgb(167, 135, 0);
-  font-family: 'Special Elite', cursive;
-  font-weight: 100;
-  text-decoration: none;
-  font-size: 2em;
+    color: rgb(0, 149, 128);
+    font-family: 'Special Elite', cursive;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 2em;
 }
 
 .a_post {
