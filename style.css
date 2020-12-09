@@ -33,7 +33,7 @@ body {
 
 .top_link_bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .nombre {
