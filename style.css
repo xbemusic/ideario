@@ -1,57 +1,54 @@
-body {
-    background-color: #1e6666;
+body.tc-body {
+  background-color: #1e6666;
 }
 
-.contentflexbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-width: 100%;
-    min-height: 100%;
+.header-div {
+  display: none;
 }
 
-.contenedor_inicio {
-    text-align: center;
-    padding: 2em;
-    height: auto;
+.footer-div {
+  display: none;
 }
 
-.contenedor_post {
-    text-align: left;
-    height: auto;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    border: 0.15em solid rgb(0, 136, 138);
-    border-left: 0.5em solid rgb(0, 136, 138);
-    border-radius: 0px 5px 5px 0px;
-    box-shadow: 10px 0 20px rgba(0, 37, 23, 0.55);
-    background: rgba(26, 125, 114, 1);
+.tiddler-frame-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100%;
+  min-height: 100%;
 }
 
-.top_link_bar {
-    display: flex;
-    justify-content: space-around;
+.tc-tiddler-frame {
+  text-align: center;
+  position: relative;
+  padding: 2em;
+  padding-top: 0em;
+  margin-bottom: 2em;
+  background: transparent;
 }
 
 .nombre {
-    font-family: 'Vollkorn SC', serif;
-    font-weight: 100;
-    color: rgba(0, 37, 42, 1);
-    font-size: 5em;
-    margin: 0em;
-    border-bottom: 0.05em solid rgb(0, 131, 133);
+  font-family: 'Vollkorn SC', serif;
+  font-weight: 100;
+  color: rgba(0, 37, 42, 1);
+  font-size: 5em;
+  margin: 0em;
+  border-bottom: 0.05em solid rgb(0, 131, 133);
 }
 
-.firma {
+.top_link_bar {
+  display: none;
+}
+
+.img-container img {
   margin-top: 1em;
   margin-bottom: 0em;
-  width: 10em;
+  width: 13em;
 }
 
 h1 {
+  display: inline;
   font-family: 'Epilogue', sans-serif;
   font-weight: 500;
   font-size: 2.4em;
@@ -65,40 +62,31 @@ p {
   font-size: 1.4em;
 }
 
-.a_inicio {
-    color: rgb(111, 0, 52);
-    font-family: 'Epilogue', sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    font-size: 2em;
-    background: rgb(255, 0, 127);
-    padding: 0.22em;
-    border-radius: 0.15em;
-}
-
-.a_inicio:hover {
-    color: rgb(0, 111, 96);
-    font-family: 'Epilogue', sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    font-size: 2em;
-    background: rgb(93, 51, 153);
-    padding: 0.22em;
-    border-radius: 0.15em;
-}
-
-.a_post {
-  color: rgb(195, 195, 195);
-  font-family: 'Vollkorn', serif;
-  font-weight: 100;
+button.tc-tiddlylink,
+a.tc-tiddlylink {
+  color: rgb(111, 0, 52);
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
   text-decoration: none;
-  font-size: 1.7em;
+  font-size: 2em;
+  background: rgb(255, 0, 127);
+  padding: 0.22em;margin-bottom: 1em;
+  border-radius: 0.15em;
+  -webkit-user-select: inherit; /* Otherwise the draggable attribute makes links impossible to select */
 }
 
-.a_post:hover {
-  color: #00bb96;
-  font-family: 'Vollkorn', serif;
-  font-weight: 100;
+button.tc-tiddlylink:hover,
+a.tc-tiddlylink:hover {
+  color: rgb(0, 111, 96);
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
   text-decoration: none;
-  font-size: 1.7em;
+  font-size: 2em;
+  background: rgb(93, 51, 153);
+  padding: 0.22em;margin-bottom: -1em;
+  border-radius: 0.15em;
+}
+
+tc-tiddlylink tc-tiddlylink-missing a_post {
+  display: none;
 }
