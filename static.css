@@ -3,8 +3,13 @@ body.tc-body {
 }
 
 .header-div {
-    margin-top: -1em;
-    margin-bottom: -1em;
+  margin-top: -1em;
+  margin-bottom: -1em;
+}
+
+.footer-div {
+  margin-top: -1em;
+  margin-bottom: -1em;
 }
 
 .tiddler-frame-container {
@@ -35,10 +40,19 @@ body.tc-body {
   padding-bottom: 2em;
 }
 
+.nombre {
+  font-family: 'Vollkorn SC', serif;
+  font-weight: 100;
+  color: rgba(0, 37, 42, 1);
+  font-size: 5em;
+  margin: 0em;
+  border-bottom: 0.05em solid rgb(0, 131, 133);
+}
+
 .img-container img {
-    margin-top: 1em;
-    margin-bottom: 0em;
-    width: 13em;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  width: 8em;
 }
 
 h1 {
@@ -56,14 +70,14 @@ p {
   font-size: 1.4em;
 }
 
-button.tc-tiddlylink,
-a.tc-tiddlylink {
-  -webkit-user-select: inherit; /* Otherwise the draggable attribute makes links impossible to select */
+button.tc-tiddlylink, a.tc-tiddlylink {
+  text-decoration: none;
+  color: #97e6d6;
 }
 
-button.tc-tiddlylink:hover,
-a.tc-tiddlylink:hover {
-  /* text-decoration: underline; */
+button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
+  text-decoration: none;
+  color: gold;
 }
 
 .a_inicio {
