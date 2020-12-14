@@ -33,6 +33,21 @@ body.tc-body {
   background: rgba(26, 125, 114, 1);
 }
 
+[data-tiddler-title="Quiero conocer (notas)"] {
+    background: rgb(184, 154, 0);
+    border: 0.4em solid rgb(175, 130, 0);
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+[data-tiddler-title="Quiero conocer (notas)"] .tc-titlebar h2  {
+    color: #bb4c00;
+}
+
+[data-tiddler-title="Quiero conocer (notas)"] h1 {
+    color: #bb4c00;
+}
+
 .top_link_bar {
   display: flex;
   justify-content: space-around;
