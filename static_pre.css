@@ -1,0 +1,119 @@
+body.tc-body {
+  background-color: #1e6666;
+}
+
+.header-div {
+  margin-top: -1em;
+  margin-bottom: -1em;
+}
+
+.footer-div {
+  margin-top: -1em;
+  margin-bottom: -1em;
+}
+
+.tiddler-frame-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.tc-tiddler-frame {
+  position: relative;
+  padding: 2em;
+  padding-top: 0em;
+  border: 0.15em solid rgb(0, 136, 138);
+  margin-bottom: 2em;
+  border-left: 0.5em solid rgb(0, 136, 138);
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 10px 0 20px rgba(0, 37, 23, 0.55);
+  background: rgba(26, 125, 114, 1);
+}
+
+.top_link_bar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.nombre {
+  font-family: 'Vollkorn SC', serif;
+  font-weight: 100;
+  color: rgba(0, 37, 42, 1);
+  font-size: 5em;
+  margin: 0em;
+  border-bottom: 0.05em solid rgb(0, 131, 133);
+}
+
+.img-container img {
+  margin-top: 1em;
+  margin-bottom: 0em;
+  width: 10em;
+}
+
+h1 {
+  display: inline;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 500;
+  font-size: 2.4em;
+  color: #00bb96;
+}
+
+p {
+  color: #033332;
+  font-family: 'Vollkorn', serif;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+button.tc-tiddlylink,
+a.tc-tiddlylink {
+  -webkit-user-select: inherit; /* Otherwise the draggable attribute makes links impossible to select */
+}
+
+button.tc-tiddlylink:hover,
+a.tc-tiddlylink:hover {
+  /* text-decoration: underline; */
+}
+
+.a_inicio {
+  color: rgb(111, 0, 52);
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 2em;
+  background: rgb(255, 0, 127);
+  padding: 0.22em;
+  border-radius: 0.15em;
+}
+
+.a_inicio:hover {
+  color: rgb(0, 111, 96);
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 2em;
+  background: rgb(93, 51, 153);
+  padding: 0.22em;
+  border-radius: 0.15em;
+}
+
+.a_post {
+  color: rgb(195, 195, 195);
+  font-family: 'Vollkorn', serif;
+  font-weight: 100;
+  text-decoration: none;
+  font-size: 1.7em;
+}
+
+.a_post:hover {
+  color: #00bb96;
+  font-family: 'Vollkorn', serif;
+  font-weight: 100;
+  text-decoration: none;
+  font-size: 1.7em;
+}
