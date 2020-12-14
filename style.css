@@ -33,7 +33,9 @@ body.tc-body {
   font-weight: 100;
   color: rgba(0, 37, 42, 1);
   font-size: 5em;
-  margin: 0em;
+  width: 2em;
+  margin: auto;
+  margin-bottom: 0em;
   border-bottom: 0.05em solid rgb(0, 131, 133);
 }
 
@@ -44,7 +46,7 @@ body.tc-body {
 .img-container img {
   margin-top: 1em;
   margin-bottom: 0em;
-  width: 13em;
+  width: 10em;
 }
 
 h1 {
@@ -64,13 +66,14 @@ p {
 
 button.tc-tiddlylink,
 a.tc-tiddlylink {
-  color: rgb(111, 0, 52);
+  color: #8cc1c1;
   font-family: 'Epilogue', sans-serif;
   font-weight: 400;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.3em;
   background: rgb(255, 0, 127);
-  padding: 0.22em;margin-bottom: 1em;
+  padding: 0.22em;
+    padding-bottom: 0.2em;
   border-radius: 0.15em;
   -webkit-user-select: inherit; /* Otherwise the draggable attribute makes links impossible to select */
 }
@@ -81,9 +84,9 @@ a.tc-tiddlylink:hover {
   font-family: 'Epilogue', sans-serif;
   font-weight: 400;
   text-decoration: none;
-  font-size: 2em;
-  background: rgb(93, 51, 153);
-  padding: 0.22em;margin-bottom: -1em;
+  font-size: 1.3em;
+  background: rgb(199, 161, 255);
+  padding: 0.22em;
   border-radius: 0.15em;
 }
 
