@@ -2,15 +2,7 @@ body.tc-body {
   background-color: #1e6666;
 }
 
-.header-div {
-  margin-top: -1em;
-  margin-bottom: -1em;
-}
-
-.footer-div {
-  margin-top: -1em;
-  margin-bottom: -1em;
-}
+.header-div, .footer-div {display: none;}
 
 .tiddler-frame-container {
   display: flex;
