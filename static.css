@@ -33,6 +33,12 @@ body.tc-body {
   background: rgba(26, 125, 114, 1);
 }
 
+button.tc-tiddlylink, a.tc-tiddlylink {
+    background: transparent;
+    text-decoration: none;
+    color: #97e6d6;
+}
+
 [data-tiddler-title="Quiero conocer (notas)"] {
     background: rgb(184, 154, 0);
     border: 0.4em solid rgb(175, 130, 0);
@@ -58,15 +64,6 @@ body.tc-body {
   justify-content: space-around;
   padding-top: 2em;
   padding-bottom: 2em;
-}
-
-.nombre {
-  font-family: 'Vollkorn SC', serif;
-  font-weight: 100;
-  color: rgba(0, 37, 42, 1);
-  font-size: 5em;
-  margin: 0em;
-  border-bottom: 0.05em solid rgb(0, 131, 133);
 }
 
 .img-container img {
@@ -98,11 +95,11 @@ p {
 }
 
 .tab {
-    display: inline;
-    color: #033332;
-    font-family: 'Volkorn', serif;
-    font-weight: 400;
-    font-size: 1.5em;
+    /* display: inline; */
+    color: transparent;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
     margin: 0em;
     padding: 0em;
     background: transparent;
@@ -110,11 +107,13 @@ p {
 }
 
 button.tc-tiddlylink, a.tc-tiddlylink {
-  text-decoration: none;
-  color: #97e6d6;;
+    background: transparent;
+    text-decoration: none;
+    color: #97e6d6;
 }
 
 button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
+  background: transparent;
   text-decoration: none;
   color: gold;
 }
@@ -155,4 +154,84 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
   font-weight: 100;
   text-decoration: none;
   font-size: 1.7em;
+}[data-tiddler-title="index"], [data-tiddler-title="Canciones"], [data-tiddler-title="Entradas"] {
+    background: transparent;
+    border: none;
+    border-radius: 0em;
+    box-shadow: none;
+}
+
+[data-tags*="main"] .tc-tiddler-frame {
+  text-align: left;
+  position: relative;
+  padding: 2em;
+  padding-top: 0em;
+  margin-bottom: 2em;
+  background: transparent;
+  border: 3px solid rgb(135, 255, 235);
+  border-radius: 0.55em;
+}
+
+[data-tags*="main"] .nombre {
+  font-family: 'Vollkorn SC', serif;
+  font-weight: 100;
+  color: rgba(0, 37, 42, 1);
+  font-size: 5em;
+  width: 2em;
+  margin: auto;
+  margin-bottom: 0em;
+  border-bottom: 0.05em solid rgb(0, 131, 133);
+}
+
+[data-tags*="main"] .top_link_bar {
+  display: none;
+}
+
+[data-tags*="main"] .img-container img {
+  margin-top: 1em;
+  margin-bottom: 0em;
+  width: 10em;
+}
+
+[data-tags*="main"] h1 {
+  display: inline;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 500;
+  font-size: 2.4em;
+  color: #00bb96;
+}
+
+[data-tags*="main"] p {
+  color: #033332;
+  font-family: 'Vollkorn', serif;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+[data-tags*="main"] button.tc-tiddlylink, [data-tags*="main"] a.tc-tiddlylink {
+  color: #db9fa8;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.1em;
+  background: rgb(142, 0, 70);
+  padding: 0.22em;
+  padding-bottom: 0.2em;
+  border-radius: 0.15em;
+  -webkit-user-select: inherit; /* Otherwise the draggable attribute makes links impossible to select */
+}
+
+[data-tags*="main"] button.tc-tiddlylink:hover, [data-tags*="main"] a.tc-tiddlylink:hover {
+  color: rgb(0, 111, 96);
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.1em;
+  background: rgb(48, 0, 77);
+  padding: 0.22em;
+  border-radius: 0.15em;
+}
+
+[data-tags*="main"] tc-tiddlylink tc-tiddlylink-missing a_post {
+  display: none;
 }
