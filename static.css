@@ -97,6 +97,18 @@ p {
   font-size: 1.4em;
 }
 
+.tab {
+    display: inline;
+    color: #033332;
+    font-family: 'Volkorn', serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 0em;
+    padding: 0em;
+    background: transparent;
+    border: none;
+}
+
 button.tc-tiddlylink, a.tc-tiddlylink {
   text-decoration: none;
   color: #97e6d6;;
