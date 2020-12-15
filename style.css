@@ -71,23 +71,22 @@ a.tc-tiddlylink {
   font-weight: 400;
   text-decoration: none;
   font-size: 1.3em;
-  background: rgb(255, 0, 127);
+  background: rgb(142, 0, 70);
   padding: 0.22em;
     padding-bottom: 0.2em;
   border-radius: 0.15em;
   -webkit-user-select: inherit; /* Otherwise the draggable attribute makes links impossible to select */
 }
 
-button.tc-tiddlylink:hover,
-a.tc-tiddlylink:hover {
-  color: rgb(0, 111, 96);
-  font-family: 'Epilogue', sans-serif;
-  font-weight: 400;
-  text-decoration: none;
-  font-size: 1.3em;
-  background: rgb(199, 161, 255);
-  padding: 0.22em;
-  border-radius: 0.15em;
+button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
+    color: rgb(0, 111, 96);
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.3em;
+    background: rgb(48, 0, 77);
+    padding: 0.22em;
+    border-radius: 0.15em;
 }
 
 tc-tiddlylink tc-tiddlylink-missing a_post {
