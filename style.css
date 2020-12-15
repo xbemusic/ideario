@@ -64,13 +64,12 @@ p {
   font-size: 1.4em;
 }
 
-button.tc-tiddlylink,
-a.tc-tiddlylink {
+button.tc-tiddlylink, a.tc-tiddlylink {
   color: #8cc1c1;
   font-family: 'Epilogue', sans-serif;
   font-weight: 400;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.1em;
   background: rgb(142, 0, 70);
   padding: 0.22em;
     padding-bottom: 0.2em;
@@ -83,7 +82,7 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     font-family: 'Epilogue', sans-serif;
     font-weight: 400;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.1em;
     background: rgb(48, 0, 77);
     padding: 0.22em;
     border-radius: 0.15em;
