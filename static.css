@@ -48,6 +48,11 @@ body.tc-body {
     color: #bb4c00;
 }
 
+[data-tiddler-title="Quiero conocer (notas)"] a.tc-tiddlylink {
+    text-decoration: none;
+    color: #b6ec7f;
+}
+
 .top_link_bar {
   display: flex;
   justify-content: space-around;
@@ -87,7 +92,7 @@ p {
 
 button.tc-tiddlylink, a.tc-tiddlylink {
   text-decoration: none;
-  color: #97e6d6;
+  color: #97e6d6;;
 }
 
 button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
