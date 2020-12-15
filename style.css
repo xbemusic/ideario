@@ -20,12 +20,14 @@ body.tc-body {
 }
 
 .tc-tiddler-frame {
-  text-align: center;
+  text-align: left;
   position: relative;
   padding: 2em;
   padding-top: 0em;
   margin-bottom: 2em;
   background: transparent;
+  border: 3px solid rgb(135, 255, 235);
+  border-radius: 0.55em;
 }
 
 .nombre {
@@ -65,27 +67,27 @@ p {
 }
 
 button.tc-tiddlylink, a.tc-tiddlylink {
-  color: #8cc1c1;
+  color: #db9fa8;
   font-family: 'Epilogue', sans-serif;
   font-weight: 400;
   text-decoration: none;
   font-size: 1.1em;
   background: rgb(142, 0, 70);
   padding: 0.22em;
-    padding-bottom: 0.2em;
+  padding-bottom: 0.2em;
   border-radius: 0.15em;
   -webkit-user-select: inherit; /* Otherwise the draggable attribute makes links impossible to select */
 }
 
 button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
-    color: rgb(0, 111, 96);
-    font-family: 'Epilogue', sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    font-size: 1.1em;
-    background: rgb(48, 0, 77);
-    padding: 0.22em;
-    border-radius: 0.15em;
+  color: rgb(0, 111, 96);
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.1em;
+  background: rgb(48, 0, 77);
+  padding: 0.22em;
+  border-radius: 0.15em;
 }
 
 tc-tiddlylink tc-tiddlylink-missing a_post {
