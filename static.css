@@ -83,6 +83,13 @@ h1 {
   color: #00bb96;
 }
 
+h3 {
+    font-family: 'Vollkorn', serif;
+    margin: 0em;
+    font-weight: 400;
+    color: rgb(75, 157, 105);
+}
+
 p {
   color: #033332;
   font-family: 'Vollkorn', serif;
