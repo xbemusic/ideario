@@ -86,6 +86,11 @@ p {
   font-size: 1.4em;
 }
 
+/*botón de twitter*/
+.btn:active, .btn:focus, .btn:hover {
+    background-color: #1bbfe0;
+}
+
 .tab {
     /* display: inline; */
     color: transparent;
