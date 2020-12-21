@@ -2,6 +2,19 @@ body, body.tc-body {
   background-color: #1e6666;
 }
 
+.tc-tiddler-frame {
+    position: relative;
+    padding: 2.5em;
+    padding-top: 0em;
+    padding-bottom: 2em;
+    border: 0.15em solid rgb(0, 98, 99);
+    margin-bottom: 2em;
+    /* border-left: 0.5em solid rgb(0, 136, 138); */
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 37, 23, 0.55);
+    background: rgba(26, 125, 114, 1);
+}
+
 .header-div, .footer-div {display: none;}
 
 .tiddler-frame-container {
@@ -14,15 +27,16 @@ body, body.tc-body {
 }
 
 .tc-tiddler-frame {
-  position: relative;
-  padding: 2em;
-  padding-top: 0em;
-  border: 0.15em solid rgb(0, 136, 138);
-  margin-bottom: 2em;
-  border-left: 0.5em solid rgb(0, 136, 138);
-  border-radius: 0px 5px 5px 0px;
-  box-shadow: 10px 0 20px rgba(0, 37, 23, 0.55);
-  background: rgba(26, 125, 114, 1);
+    position: relative;
+    padding: 2.5em;
+    padding-top: 0em;
+    padding-bottom: 2em;
+    border: 0.15em solid rgb(0, 98, 99);
+    margin-bottom: 2em;
+    /* border-left: 0.5em solid rgb(0, 136, 138); */
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 37, 23, 0.55);
+    background: rgba(26, 125, 114, 1);
 }
 
 button.tc-tiddlylink, a.tc-tiddlylink {
