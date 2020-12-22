@@ -15,7 +15,7 @@ body, body.tc-body {
     background: rgba(26, 125, 114, 1);
 }
 
-.header-div, .footer-div {display: none;}
+/* .header-div, .footer-div {display: none;} */
 
 .tiddler-frame-container {
   display: flex;
