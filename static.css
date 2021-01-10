@@ -79,11 +79,12 @@ button.tc-tiddlylink, a.tc-tiddlylink {
     margin-left: -2.5em;
     margin-right: -2.5em;
     background: #232323;
+    height: 34px;
 }
 
 .flecha {
     height: auto;
-    margin: 10px;
+    margin: 0px;
 }
 
 .img-container img {
