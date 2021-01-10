@@ -205,11 +205,15 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 }
 
 [data-tags*="main"] .top_link_bar {
-  display: none;
+    display: flex;
+    background: transparent;
+    height: 35px;
 }
 
 [data-tags*="main"] .bottom_link_bar {
-  display: none;
+    display: flex;
+    background: transparent;
+    height: 35px;
 }
 
 [data-tags*="main"] .img-container img {
