@@ -18,11 +18,9 @@ body, body.tc-body {
     padding: 2.5em;
     padding-top: 0em;
     padding-bottom: 2em;
-    /* border: 0.15em solid rgb(0, 98, 99); */
     margin-bottom: 2em;
-    /* border-left: 0.5em solid rgb(0, 136, 138); */
     border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 37, 23, 0.55);
+    box-shadow: 0 0 20px rgba(37, 37, 37, 0.59);
     background: #545454;
 }
 
