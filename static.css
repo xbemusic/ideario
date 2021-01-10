@@ -73,12 +73,13 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 }
 
 .bottom_link_bar {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 2em;
-  padding-bottom: 2em;
-background: #232323;
-width:100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -2.5em;
+    margin-right: -2.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: #232323;
 }
 
 .img-container img {
