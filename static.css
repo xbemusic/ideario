@@ -166,7 +166,7 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
   text-decoration: none;
   font-size: 1.7em;
 }body, body.tc-body {
-  background-color: #1e6666;
+  background-color: #595959;
 }
 
 [data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"] {
