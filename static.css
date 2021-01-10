@@ -20,7 +20,7 @@ body, body.tc-body {
     padding-bottom: 2em;
     margin-bottom: 2em;
     border-radius: 5px;
-    box-shadow: 0 0 20px rgba(37, 37, 37, 0.59);
+    box-shadow: 0 0 10px rgba(27, 27, 27, 0.36);
     background: #545454;
 }
 
@@ -42,7 +42,7 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 }
 
 [data-tiddler-title="Quiero conocer (notas)"] h1 {
-    color: #a1a1a1;
+    color: #232323;
 }
 
 [data-tiddler-title="Quiero conocer (notas)"] a.tc-tiddlylink {
@@ -87,7 +87,7 @@ h1 {
   font-family: 'Epilogue', sans-serif;
   font-weight: 500;
   font-size: 2.4em;
-  color: #a1a1a1;
+  color: #232323;
 }
 
 h3 {
@@ -98,7 +98,7 @@ h3 {
 }
 
 p {
-  color: #033332;
+  color: #a1a1a1;
   font-family: 'Vollkorn', serif;
   font-weight: 400;
   font-size: 1.4em;
