@@ -67,6 +67,10 @@ button.tc-tiddlylink, a.tc-tiddlylink {
     height: 35px;
 }
 
+.tc-tiddlylink.tc-tiddlylink-resolves.back-button {
+    height: 35px;
+}
+
 .flecha {
     height: 35px;
     margin-bottom: -5px;
