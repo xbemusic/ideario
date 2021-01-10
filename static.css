@@ -45,10 +45,6 @@ button.tc-tiddlylink, a.tc-tiddlylink {
     color: #97e6d6;
 }
 
-.back-button {
-
-}
-
 [data-tiddler-title="Quiero conocer (notas)"] {
     background: rgb(184, 154, 0);
     border: 0.4em solid rgb(175, 130, 0);
