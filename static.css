@@ -7,7 +7,7 @@ body, body.tc-body {
     padding: 2.5em;
     padding-top: 0em;
     padding-bottom: 2em;
-    border: 0.15em solid rgb(0, 98, 99);
+    /* border: 0.15em solid rgb(0, 98, 99); */
     margin-bottom: 2em;
     /* border-left: 0.5em solid rgb(0, 136, 138); */
     border-radius: 5px;
@@ -79,11 +79,11 @@ button.tc-tiddlylink, a.tc-tiddlylink {
     margin-left: -2.5em;
     margin-right: -2.5em;
     background: #232323;
-    height: 34px;
+    height: 35px;
 }
 
 .flecha {
-    height: 34px;
+    height: 35px;
     margin-bottom: -5px;
 }
 
