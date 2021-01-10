@@ -46,8 +46,7 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 }
 
 .back-button {
-background: #232323;
-width:100%;
+
 }
 
 [data-tiddler-title="Quiero conocer (notas)"] {
@@ -75,6 +74,15 @@ width:100%;
   justify-content: space-around;
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+.bottom_link_bar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2em;
+  padding-bottom: 2em;
+background: #232323;
+width:100%;
 }
 
 .img-container img {
