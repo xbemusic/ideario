@@ -214,7 +214,15 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
   color: #00bb96;
 }
 
-[data-tags*="main"] p {
+[data-tags*="main"] h1 {
+    display: inline;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    font-size: 2.4em;
+    color: #00bb96;
+}
+
+.main-title {
   color: #033332;
   font-family: 'Vollkorn', serif;
   font-weight: 400;
