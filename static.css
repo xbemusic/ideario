@@ -10,7 +10,7 @@ body, body.tc-body {
 /* .header-div, .footer-div {display: none;} */
 
 .tc-story-river {
-  display: block;
+  /*display: block;*/
 }
 
 .tiddler-frame-container {
@@ -56,6 +56,11 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 }
 
 .flecha {
+  height: 35px;
+  margin-bottom: -5px;
+}
+
+.flecha-bn {
   height: 35px;
   margin-bottom: -5px;
 }
