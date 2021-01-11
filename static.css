@@ -1,5 +1,9 @@
-body, body.tc-body {
+* {
   background-color: #595959
+}
+
+body, body.tc-body {
+    background-color: #595959
 }
 
 /* .header-div, .footer-div {display: none;} */
