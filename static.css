@@ -228,6 +228,10 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     letter-spacing: 0.01em;
 }
 
+.main-title-link {
+background: red;
+}
+
 [data-tags*="main"] button.tc-tiddlylink, [data-tags*="main"] a.tc-tiddlylink {
   color: #a1a1a1;
   font-family: 'Epilogue', sans-serif;
