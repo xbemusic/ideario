@@ -1,12 +1,16 @@
 body, body.tc-body {
-  background-color: #595959;
+    background-color: #595959;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 44em;
+    width: auto;
 }
 
 /* .header-div, .footer-div {display: none;} */
 
 .tc-story-river {
-  color: green;
-  height: 500em;
+  display: block;
 }
 
 .tiddler-frame-container {
@@ -23,9 +27,9 @@ body, body.tc-body {
   padding: 2.5em;
   padding-top: 0em;
   padding-bottom: 2em;
-  margin-left: 1em;
+  /*margin-left: 1em;
   margin-right: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 2em; */
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(27, 27, 27, 0.36);
   background: #545454;
