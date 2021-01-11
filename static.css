@@ -229,7 +229,9 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 }
 
 .main-title .main-title-link {
-background: red;
+    background: red;
+    padding: 0px;
+    margin: 0px;
 }
 
 [data-tags*="main"] button.tc-tiddlylink, [data-tags*="main"] a.tc-tiddlylink {
