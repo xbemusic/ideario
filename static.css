@@ -145,7 +145,12 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
   font-weight: 100;
   text-decoration: none;
   font-size: 1.7em;
-}[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"] {
+}[data-tags*="main"] body, [data-tags*="main"] body.tc-body {
+  background-color: aqua;
+  min-height: 48em;
+}
+
+[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"] {
 	background: gray;
 	border: none;
 	border-radius: 0em;
@@ -156,14 +161,14 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 [data-tags*="main"] .tiddler-frame-container {
   display: block;
   min-width: 100%;
-min-height: 100%;
+  min-height: 100%;
   height: 100%;
 }
 
 [data-tags*="main"] .tc-tiddler-frame {
-text-align: left;
+  text-align: left;
   position: relative;
-height: 100%;
+  height: 100%;
   padding: 2em;
   padding-top: 0em;
   margin-bottom: 2em;
@@ -181,15 +186,15 @@ height: 100%;
 }
 
 [data-tags*="main"] .top_link_bar {
-    display: flex;
-    background: transparent;
-    height: 35px;
+  display: flex;
+  background: transparent;
+  height: 35px;
 }
 
 [data-tags*="main"] .bottom_link_bar {
-    display: flex;
-    background: transparent;
-    height: 35px;
+  display: flex;
+  background: transparent;
+  height: 35px;
 }
 
 [data-tags*="main"] .img-container img {
@@ -214,17 +219,17 @@ height: 100%;
 }
 
 [data-tags*="main"] button.tc-tiddlylink, [data-tags*="main"] a.tc-tiddlylink {
-    color: #a1a1a1;
-    font-family: 'Epilogue', sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 1.1em;
-    text-shadow: 2px 2px 2px rgba(60, 60, 60, 0.87);
-    /* background: rgb(142, 0, 70); */
-    padding: 0.22em;
-    padding-bottom: 0.2em;
-    border-radius: 0.15em;
-    -webkit-user-select: inherit;
+  color: #a1a1a1;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.1em;
+  text-shadow: 2px 2px 2px rgba(60, 60, 60, 0.87);
+  /* background: rgb(142, 0, 70); */
+  padding: 0.22em;
+  padding-bottom: 0.2em;
+  border-radius: 0.15em;
+  -webkit-user-select: inherit;
 }
 
 [data-tags*="main"] button.tc-tiddlylink:hover, [data-tags*="main"] a.tc-tiddlylink:hover {
@@ -237,8 +242,6 @@ height: 100%;
   padding: 0.22em;
   border-radius: 0.15em;
 }
-
-
 
 [data-tags*="main"] tc-tiddlylink tc-tiddlylink-missing a_post {
   display: none;
