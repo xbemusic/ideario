@@ -146,10 +146,11 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
   text-decoration: none;
   font-size: 1.7em;
 }[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"] {
-    background: transparent;
-    border: none;
-    border-radius: 0em;
-    box-shadow: none;
+	background: gray;
+	border: none;
+	border-radius: 0em;
+	box-shadow: none;
+	height: 25em;
 }
 
 [data-tags*="main"] .tiddler-frame-container {
