@@ -188,6 +188,7 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 [data-tags*="main"] .tc-tiddler-frame {
   text-align: left;
   position: relative;
+height: 100%;
   padding: 2em;
   padding-top: 0em;
   margin-bottom: 2em;
