@@ -186,12 +186,9 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 }
 
 [data-tags*="main"] .tiddler-frame-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: block;
   min-width: 100%;
-  min-height: 100%;
+  height: auto;
 }
 
 [data-tags*="main"] .tc-tiddler-frame {
