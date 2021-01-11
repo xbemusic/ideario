@@ -228,7 +228,7 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     letter-spacing: 0.01em;
 }
 
-.main-title-link {
+.main-title .main-title-link {
 background: red;
 }
 
