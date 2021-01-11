@@ -1,10 +1,10 @@
 body, body.tc-body {
     display: flex;
-    justify-content: flex-end;
-background-color: #ab2525;
+    justify-content: center;
+    background-color: #595959;
 }
 
-/*color background #595959*/
+/*color background #ab2525*/
 
 /* .header-div, .footer-div {display: none;} */
 
@@ -60,8 +60,7 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 }
 
 .flecha-bn {
-  height: 35px;
-  margin-bottom: -5px;
+  height: 33px;
 }
 
 .img-container img {
@@ -225,12 +224,15 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     color: #232323;
     text-transform: uppercase;
     letter-spacing: 0.01em;
+    background: blanchedalmond;
 }
 
 .main-title a.tc-tiddlylink {
     background: red;
+    vertical-align: bottom;
     padding: 0px !important;
     margin: 0px;
+    border-radius: 0px !important;
 }
 
 [data-tags*="main"] button.tc-tiddlylink, [data-tags*="main"] a.tc-tiddlylink {
