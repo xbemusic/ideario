@@ -52,16 +52,6 @@ button.tc-tiddlylink, a.tc-tiddlylink {
     color: #b6ec7f;
 }
 
-.top_link_bar {
-  display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: -2.5em;
-    margin-right: -2.5em;
-    background: #232323;
-    height: 35px;
-}
-
 .bottom_link_bar {
     display: flex;
     justify-content: space-around;
