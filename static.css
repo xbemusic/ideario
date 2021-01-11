@@ -230,7 +230,7 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 
 .main-title a.tc-tiddlylink {
     background: red;
-    padding: 0px;
+    padding: 0px !important;
     margin: 0px;
 }
 
