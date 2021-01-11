@@ -215,10 +215,12 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 }
 
 .main-title {
-  font-family: 'Epilogue', sans-serif;
-  font-weight: 400;
-  font-size: 2.4em;
-  color: #033332;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    font-size: 2.2em;
+    color: #232323;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
 }
 
 [data-tags*="main"] button.tc-tiddlylink, [data-tags*="main"] a.tc-tiddlylink {
