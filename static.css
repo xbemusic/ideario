@@ -144,7 +144,7 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
   font-weight: 100;
   text-decoration: none;
   font-size: 1.7em;
-}[data-tags*="main"] body, [data-tags*="main"] body.tc-body {
+}[data-tags*="main"] .tc-body.tc-story-river {
   background-color: aqua;
   min-height: 48em;
 }
