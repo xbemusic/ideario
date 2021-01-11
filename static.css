@@ -186,21 +186,21 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 }
 
 [data-tags*="main"] .tiddler-frame-container {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   min-width: 100%;
-  height: auto;
+  min-height: 100%;
 }
 
 [data-tags*="main"] .tc-tiddler-frame {
-  text-align: left;
+text-align: left;
   position: relative;
 height: 100%;
   padding: 2em;
   padding-top: 0em;
   margin-bottom: 2em;
-  background: transparent;
-  border: 3px solid rgb(135, 255, 235);
-  border-radius: 0.55em;
 }
 
 [data-tags*="main"] .nombre {
