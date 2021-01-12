@@ -17,12 +17,11 @@ body, body.tc-body {
 }
 
 .tiddler-frame-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-width: 100%;
-  min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 34em;
 }
 
 .tc-tiddler-frame {
