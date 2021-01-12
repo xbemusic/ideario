@@ -50,7 +50,7 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 }
 
 .bottom_link_bar:hover {
-  background: #a1a1a1;
+    background: #2b2b2b;
 }
 
 .tc-tiddlylink.tc-tiddlylink-resolves.back-button {
