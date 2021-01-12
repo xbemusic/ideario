@@ -82,13 +82,13 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 }
 
 h1 {
-  /* display: inline; */
-  font-family: 'Epilogue', sans-serif;
-  font-weight: 600;
-  font-size: 2.4em;
-  color: #232323;
-  margin-top: 0.5em;
-  margin-bottom: -0.5em;
+    /* display: inline; */
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    font-size: 2.4em;
+    color: #232323;
+    margin-top: 1em;
+    margin-bottom: 0em;
 }
 
 h3 {
