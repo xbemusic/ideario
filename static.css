@@ -269,3 +269,7 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 [data-tags*="main"] tc-tiddlylink tc-tiddlylink-missing a_post {
   display: none;
 }
+
+.btn-o .btn {
+    background-color: #000000;
+}
