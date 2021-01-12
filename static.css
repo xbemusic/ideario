@@ -49,6 +49,10 @@ button.tc-tiddlylink, a.tc-tiddlylink {
   height: 35px;
 }
 
+.bottom_link_bar:hover {
+  background: #a1a1a1;
+}
+
 .tc-tiddlylink.tc-tiddlylink-resolves.back-button {
   height: 35px;
 }
