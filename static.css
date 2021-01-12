@@ -27,7 +27,7 @@ body, body.tc-body {
 
 .tc-tiddler-frame {
   position: relative;
-  padding: 2.5em;
+  padding: 1.5em;
   padding-top: 0em;
   padding-bottom: 2em;
   border-radius: 5px;
@@ -47,8 +47,8 @@ button.tc-tiddlylink, a.tc-tiddlylink {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-left: -2.5em;
-  margin-right: -2.5em;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
   background: #232323;
   height: 35px;
 }
@@ -87,6 +87,8 @@ h1 {
   font-weight: 600;
   font-size: 2.4em;
   color: #232323;
+  margin-top: 0.5em;
+  margin-bottom: -0.5em;
 }
 
 h3 {
