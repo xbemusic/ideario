@@ -177,6 +177,8 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
   height: 100%;
   padding: 2em;
   padding-top: 0em;
+margin-left: 0em;
+margin-right: 0em;
   margin-bottom: 2em;
 }
 
