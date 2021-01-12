@@ -232,7 +232,8 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 }
 
 .main-list {
-margin-left: 1em;
+    margin-left: 1.3em;
+    font-size: 1.5em;
 }
 
 [data-tags*="main"] button.tc-tiddlylink, [data-tags*="main"] a.tc-tiddlylink {
