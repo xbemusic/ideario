@@ -63,7 +63,7 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 }
 
 .flecha-bn {
-    height: 33px;
+    height: 32px;
     padding-right: 0.09em;
 }
 
@@ -221,13 +221,12 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 
 .main-title {
     font-family: 'Epilogue', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.98em;
     color: #232323;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     overflow-wrap: anywhere;
-    /* background: brown; */
 }
 
 .main-title a.tc-tiddlylink {
