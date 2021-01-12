@@ -58,6 +58,7 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 
 .flecha-bn {
     height: 33px;
+    padding-right: 0.09em;
 }
 
 .img-container img {
@@ -228,6 +229,10 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     padding: 0px !important;
     margin: 0px;
     border-radius: 0px !important;
+}
+
+.main-list {
+margin-left: 1em;
 }
 
 [data-tags*="main"] button.tc-tiddlylink, [data-tags*="main"] a.tc-tiddlylink {
