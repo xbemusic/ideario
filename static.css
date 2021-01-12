@@ -226,6 +226,13 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     border-radius: 0px !important;
 }
 
+.main-title a.tc-tiddlylink:hover {
+    vertical-align: baseline;
+    padding: 0px !important;
+    margin: 0px;
+    border-radius: 0px !important;
+}
+
 .main-list {
     margin-left: 1em;
     font-size: 1.3em;
