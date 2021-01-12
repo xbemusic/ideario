@@ -1,15 +1,19 @@
 body, body.tc-body {
-    display: flex;
-    justify-content: center;
-    background-color: #595959;
+  display: flex;
+  justify-content: center;
+  background-color: #595959;
 }
 
-/*color background #ab2525*/
+/* color background #ab2525 */
 
 /* .header-div, .footer-div {display: none;} */
 
 .tc-story-river {
   /*display: block;*/
+}
+
+.tc-tiddler-body {
+  text-align: justify;
 }
 
 .tiddler-frame-container {
@@ -22,15 +26,15 @@ body, body.tc-body {
 }
 
 .tc-tiddler-frame {
-    position: relative;
-    padding: 2.5em;
-    padding-top: 0em;
-    padding-bottom: 2em;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(27, 27, 27, 0.36);
-    background: #545454;
-    margin-left: 2em;
-    margin-right: 2em;
+  position: relative;
+  padding: 2.5em;
+  padding-top: 0em;
+  padding-bottom: 2em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(27, 27, 27, 0.36);
+  background: #545454;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 button.tc-tiddlylink, a.tc-tiddlylink {
@@ -50,7 +54,7 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 }
 
 .bottom_link_bar:hover {
-    background: #2b2b2b;
+  background: #2b2b2b;
 }
 
 .tc-tiddlylink.tc-tiddlylink-resolves.back-button {
@@ -63,12 +67,12 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 }
 
 .flecha-bn {
-    height: 32px;
-    padding-right: 0.09em;
+  height: 32px;
+  padding-right: 0.09em;
 }
 
 .flecha-bn:hover {
-    filter: invert(1);
+  filter: invert(1);
 }
 
 .img-container img {
