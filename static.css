@@ -63,6 +63,10 @@ button.tc-tiddlylink, a.tc-tiddlylink {
     padding-right: 0.09em;
 }
 
+.flecha-bn:hover {
+    filter: invert(1);
+}
+
 .img-container img {
   margin-top: 1em;
   margin-bottom: 0em;
@@ -227,10 +231,6 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 }
 
 .main-title a.tc-tiddlylink:hover {
-    vertical-align: baseline;
-    padding: 0px !important;
-    margin: 0px;
-    border-radius: 0px !important;
 }
 
 .main-list {
@@ -253,14 +253,7 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 }
 
 [data-tags*="main"] button.tc-tiddlylink:hover, [data-tags*="main"] a.tc-tiddlylink:hover {
-  color: rgb(0, 111, 96);
-  font-family: 'Epilogue', sans-serif;
-  font-weight: 400;
-  text-decoration: none;
-  font-size: 1.1em;
-  background: rgb(48, 0, 77);
-  padding: 0.22em;
-  border-radius: 0.15em;
+    color: rgb(120 120 120);
 }
 
 [data-tags*="main"] tc-tiddlylink tc-tiddlylink-missing a_post {
