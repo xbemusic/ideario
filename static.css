@@ -243,9 +243,14 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 }
 
 .home-list {
-    background: #333;
-    margin: 3em;
+    background: #535353;
+    margin: 0em;
     font-size: 1.3em;
+    width: auto;
+    padding: 1em;
+    border: 1px solid #515151;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px #151515b5;
 }
 
 .share-buttons_main {
