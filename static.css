@@ -222,10 +222,12 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 .main-title {
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
-    font-size: 2.1em;
+    font-size: 1.98em;
     color: #232323;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.03em;
+    overflow-wrap: anywhere;
+    /* background: brown; */
 }
 
 .main-title a.tc-tiddlylink {
