@@ -104,8 +104,14 @@ p {
   font-size: 1.35em;
 }
 
+.post_signature {
+    font-size: 1.5em;
+    color: #5bae97;
+}
+
 .post_date {
-    color: #002838;
+    font-size: 1em;
+    color: #a1a1a1;
 }
 
 .tab {
