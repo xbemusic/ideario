@@ -209,12 +209,6 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
   height: 35px;
 }
 
-[data-tags*="main"] .bottom_link_bar {
-  display: flex;
-  background: transparent;
-  height: 35px;
-}
-
 [data-tags*="main"] .img-container img {
   margin-top: 1em;
   margin-bottom: 0em;
