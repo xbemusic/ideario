@@ -104,9 +104,8 @@ p {
   font-size: 1.35em;
 }
 
-/*botón de twitter*/
-.btn:active, .btn:focus, .btn:hover {
-  background-color: #1bbfe0;
+.post_date {
+color:red;
 }
 
 .tab {
