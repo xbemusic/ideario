@@ -127,9 +127,9 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 }
 
 button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
-  background: transparent;
-  text-decoration: none;
-  color: #353535;
+    background: transparent;
+    text-decoration: underline;
+    color: #383838;
 }
 
 .a_inicio {
