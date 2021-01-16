@@ -121,14 +121,14 @@ p {
 }
 
 button.tc-tiddlylink, a.tc-tiddlylink {
- color: #2b2b2b;
+ color: #252525;
     background: transparent;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     background: transparent;
-    text-decoration: underline;
+    text-decoration: none;
     color: #383838;
 }
 
