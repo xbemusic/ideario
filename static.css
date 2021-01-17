@@ -237,11 +237,6 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 .main-title a.tc-tiddlylink:hover {
 }
 
-.main-list {
-    margin-left: 1em;
-    font-size: 1.3em;
-}
-
 .share-buttons_main {
   display: inline;
 }
