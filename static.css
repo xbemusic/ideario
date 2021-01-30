@@ -32,8 +32,8 @@ body, body.tc-body {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(27, 27, 27, 0.36);
   background: #545454;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .bottom_link_bar {
