@@ -33,6 +33,7 @@ body, body.tc-body {
     background: #545454;
     margin-left: 1em;
     margin-right: 1em;
+min-width: 290px;
 }
 
 .bottom_link_bar {
