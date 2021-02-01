@@ -170,6 +170,12 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
   font-weight: 100;
   text-decoration: none;
   font-size: 1.7em;
+}
+
+.limelight {
+    font-family: 'Limelight', cursive;
+    font-size: 0.9em;
+    color: #252525;
 }[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
     background: transparent;
     border: none;
