@@ -121,6 +121,13 @@ button.tc-tiddlylink, a.tc-tiddlylink {
     text-decoration: none;
 }
 
+[data-tags*="canción"] button.tc-tiddlylink, a.tc-tiddlylink { 
+color: #a1a1a1; 
+background: transparent; 
+text-decoration: none; 
+font-size: 1.2em; 
+}
+
 button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     background: transparent;
     text-decoration: none;
