@@ -25,15 +25,15 @@ body, body.tc-body {
 }
 
 .tc-tiddler-frame {
-  position: relative;
-  padding: 1.5em;
-  padding-top: 0em;
-  padding-bottom: 2em;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(27, 27, 27, 0.36);
-  background: #545454;
-  margin-left: 1em;
-  margin-right: 1em;
+    position: relative;
+    padding: 1.2em;
+    padding-top: 0em;
+    padding-bottom: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(27 27 27 / 36%);
+    background: #545454;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .bottom_link_bar {
