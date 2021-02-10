@@ -1,10 +1,14 @@
+html {
+background: red;
+}
+
 body, body.tc-body {
   display: flex;
   justify-content: center;
-  background-color: #595959;
+  background-color: #666666;
 }
 
-/* color background #ab2525 */
+/* color background #595959 */
 
 /* .header-div, .footer-div {display: none;} */
 
