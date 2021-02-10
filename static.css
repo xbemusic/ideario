@@ -1,4 +1,4 @@
-html {
+[data-tags*="canción"] html, [data-tags*="entrada"] html {
 background: red;
 }
 
