@@ -181,7 +181,7 @@ background-color: #666666;
 }
 
 [data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
-    background: transparent;
+    background: #666666;
     border: none;
     border-radius: 0em;
     box-shadow: none;
