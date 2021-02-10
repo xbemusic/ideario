@@ -176,11 +176,7 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     font-family: 'Limelight', cursive;
     font-size: 0.9em;
     color: #252525;
-}[data-tags*="main"] body, [data-tags*="main"] body.tc-body { 
-background-color: #666666; 
-}
-
-[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
+}[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
     background: #666666;
     border: none;
     border-radius: 0em;
@@ -188,45 +184,6 @@ background-color: #666666;
     height: 25em;
     margin-left: 0em;
     margin-right: 0em;
-}
-
-[data-tags*="main"] .tiddler-frame-container {
-  display: block;
-  min-width: 100%;
-  min-height: 100%;
-  height: 100%;
-}
-
-[data-tags*="main"] .nombre {
-    font-family: 'Vollkorn SC', serif;
-    font-weight: 100;
-    color: #232323;
-    font-size: 5em;
-    width: 2em;
-    margin: auto;
-    margin-bottom: 0em;
-    border-bottom: 0.05em solid #a1a1a1;
-    text-align: center;
-}
-
-[data-tags*="main"] .top_link_bar {
-  display: flex;
-  background: transparent;
-  height: 35px;
-}
-
-[data-tags*="main"] .img-container img {
-  margin-top: 1em;
-  margin-bottom: 0em;
-  width: 10em;
-}
-
-[data-tags*="main"] h1 {
-  display: inline;
-  font-family: 'Epilogue', sans-serif;
-  font-weight: 500;
-  font-size: 2.4em;
-  color: #00bb96;
 }
 
 .main-title {
@@ -251,10 +208,6 @@ background-color: #666666;
 
 .share-buttons_main {
   display: inline;
-}
-
-[data-tags*="main"] tc-tiddlylink tc-tiddlylink-missing a_post {
-  display: none;
 }
 
 .btn-o .btn {
