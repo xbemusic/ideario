@@ -1,7 +1,6 @@
 body, body.tc-body {
   display: flex;
   justify-content: center;
-  background-color: #666666;
 }
 
 /* color background #595959 */
@@ -177,7 +176,11 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     font-family: 'Limelight', cursive;
     font-size: 0.9em;
     color: #252525;
-}[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
+}body, body.tc-body { 
+background-color: #666666; 
+}
+
+[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
     background: transparent;
     border: none;
     border-radius: 0em;
