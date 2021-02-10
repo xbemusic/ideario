@@ -1,7 +1,3 @@
-[data-tags*="canción"] html, [data-tags*="entrada"] html {
-background: red;
-}
-
 body, body.tc-body {
   display: flex;
   justify-content: center;
