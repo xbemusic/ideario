@@ -23,7 +23,7 @@ body, body.tc-body {
     max-width: 34em;
 }
 
-.tc-tiddler-frame {
+/*.tc-tiddler-frame {
     position: relative;
     padding: 1.2em;
     padding-bottom: 2em;
@@ -33,6 +33,18 @@ body, body.tc-body {
     margin-left: 1em;
     margin-right: 1em;
 min-width: 290px;
+}*/
+
+.tc-tiddler-frame {
+    position: relative;
+    /* padding: 1.2em; */
+    padding-bottom: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(27 27 27 / 36%);
+    background: rgba(116, 116, 116, 0.86);
+    margin-left: 1em;
+    margin-right: 1em;
+    min-width: 290px;
 }
 
 .bottom_link_bar {
@@ -176,11 +188,18 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     font-family: 'Limelight', cursive;
     font-size: 0.9em;
     color: #252525;
-}[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
+}/*[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
     background: #666666;
     border: none;
     border-radius: 0em;
     box-shadow: none;
+    height: 25em;
+    margin-left: 0em;
+    margin-right: 0em;
+}*/
+
+[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
+    border: none;
     height: 25em;
     margin-left: 0em;
     margin-right: 0em;
