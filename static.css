@@ -1,3 +1,5 @@
+/* -- {{!!title}} -- */
+
 body, body.tc-body {
   display: flex;
   justify-content: center;
@@ -176,7 +178,9 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     font-family: 'Limelight', cursive;
     font-size: 0.9em;
     color: #252525;
-}/*[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
+}/* -- {{!!title}} -- */
+
+/*[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
     background: #666666;
     border: none;
     border-radius: 0em;
