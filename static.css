@@ -23,7 +23,7 @@ body, body.tc-body {
     max-width: 34em;
 }
 
-/*.tc-tiddler-frame {
+.tc-tiddler-frame {
     position: relative;
     padding: 1.2em;
     padding-bottom: 2em;
@@ -33,18 +33,6 @@ body, body.tc-body {
     margin-left: 1em;
     margin-right: 1em;
 min-width: 290px;
-}*/
-
-.tc-tiddler-frame {
-    position: relative;
-    /* padding: 1.2em; */
-    padding-bottom: 2em;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgb(27 27 27 / 36%);
-    background: rgba(116, 116, 116, 0.86);
-    margin-left: 1em;
-    margin-right: 1em;
-    min-width: 290px;
 }
 
 .bottom_link_bar {
