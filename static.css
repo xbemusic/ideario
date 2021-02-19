@@ -126,7 +126,7 @@ button.tc-tiddlylink, a.tc-tiddlylink {
     text-decoration: none;
 }
 
-[data-tags*="canción"] button.tc-tiddlylink, a.tc-tiddlylink { 
+[data-tags*="letra"] button.tc-tiddlylink, [data-tags*="notas"] button.tc-tiddlylink, [data-tags*="canción"] button.tc-tiddlylink, [data-tags*="entrada"] button.tc-tiddlylink, [data-tags*="letra"] a.tc-tiddlylink, [data-tags*="notas"] a.tc-tiddlylink, [data-tags*="canción"] a.tc-tiddlylink, [data-tags*="entrada"] a.tc-tiddlylink { 
 /*color: #a1a1a1;*/ 
 background: transparent; 
 text-decoration: none; 
@@ -231,8 +231,8 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 .main-title a.tc-tiddlylink:hover {
 }
 
-button.tc-tiddlylink, a.tc-tiddlylink { 
-animation-duration: 0s; 
+[data-tiddler-title="index"] button.tc-tiddlylink, [data-tiddler-title="canciones"] button.tc-tiddlylink, [data-tiddler-title="entradas"] button.tc-tiddlylink, a.tc-tiddlylink { 
+animation-duration: 0s;
 }
 
 .share-buttons_main {
