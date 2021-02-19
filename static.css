@@ -131,7 +131,7 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 background: transparent; 
 text-decoration: none; 
 animation-name: link-animation;
-animation-duration: 16s;
+animation-duration: 30s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
 /*font-size: 1.2em;*/ 
