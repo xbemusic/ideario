@@ -231,6 +231,10 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
 .main-title a.tc-tiddlylink:hover {
 }
 
+button.tc-tiddlylink, a.tc-tiddlylink { 
+animation-duration: 0s; 
+}
+
 .share-buttons_main {
   display: inline;
 }
