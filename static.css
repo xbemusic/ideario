@@ -127,10 +127,21 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 }
 
 [data-tags*="canción"] button.tc-tiddlylink, a.tc-tiddlylink { 
-color: #a1a1a1; 
+/*color: #a1a1a1;*/ 
 background: transparent; 
 text-decoration: none; 
+animation-name: link-animation;
+animation-duration: 16s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
 /*font-size: 1.2em;*/ 
+}
+
+@keyframes link-animation {
+  0%   {color: rgb(0, 255, 196);}
+  33%  {color: rgb(240, 255, 0);}
+  66%  {color: rgb(255, 151, 0);}
+  99%  {color: rgb(255, 0, 135);}
 }
 
 button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
