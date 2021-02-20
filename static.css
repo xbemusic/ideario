@@ -126,22 +126,40 @@ button.tc-tiddlylink, a.tc-tiddlylink {
     text-decoration: none;
 }
 
-[data-tags*="letra"] button.tc-tiddlylink, [data-tags*="notas"] button.tc-tiddlylink, [data-tags*="canción"] button.tc-tiddlylink, [data-tags*="entrada"] button.tc-tiddlylink, [data-tags*="letra"] a.tc-tiddlylink, [data-tags*="notas"] a.tc-tiddlylink, [data-tags*="canción"] a.tc-tiddlylink, [data-tags*="entrada"] a.tc-tiddlylink { 
+[data-tags*="letra"] button.tc-tiddlylink, [data-tags*="notas"] button.tc-tiddlylink, [data-tags*="entrada"] button.tc-tiddlylink, [data-tags*="letra"] a.tc-tiddlylink, [data-tags*="notas"] a.tc-tiddlylink, [data-tags*="entrada"] a.tc-tiddlylink { 
 /*color: #a1a1a1;*/ 
 background: transparent; 
 text-decoration: none; 
 animation-name: link-animation;
-animation-duration: 30s;
+animation-duration: 45s;
 animation-iteration-count: infinite;
-animation-direction: alternate;
+animation-direction: normal;
 /*font-size: 1.2em;*/ 
 }
 
 @keyframes link-animation {
-  0%   {color: rgb(0, 255, 196);}
-  33%  {color: rgb(240, 255, 0);}
-  66%  {color: rgb(255, 151, 0);}
-  99%  {color: rgb(255, 0, 135);}
+  0%   {color: rgb(0, 255, 108);}
+  33%  {color: rgb(0, 255, 196);}
+  67%  {color: rgb(0, 172, 255);}
+ 100%   {color: rgb(0, 255, 108);}
+}
+
+[data-tags*="canción"] button.tc-tiddlylink, [data-tags*="canción"] a.tc-tiddlylink {
+    color: rgb(152, 152, 152);
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px rgb(48, 48, 48);
+}
+
+[data-tags*="canción"] button.tc-tiddlylink:hover, [data-tags*="canción"] a.tc-tiddlylink:hover {
+    color: rgb(182, 182, 182);
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px rgb(48, 48, 48);
+}
+
+button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+    text-shadow: 1px 1px 1px rgb(0, 37, 57);
 }
 
 button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
@@ -186,12 +204,6 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
   font-weight: 100;
   text-decoration: none;
   font-size: 1.7em;
-}
-
-.limelight {
-    font-family: 'Limelight', cursive;
-    font-size: 0.9em;
-    color: #252525;
 }/* -- {{!!title}} -- */
 
 /*[data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
