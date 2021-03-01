@@ -38,6 +38,7 @@ min-width: 100%; min-height: 100%; height: 100%;
     margin-left: 1em;
     margin-right: 1em;
 min-width: 290px;
+height: auto;
 }
 
 .bottom_link_bar {
@@ -216,9 +217,13 @@ button.tc-tiddlylink:hover, a.tc-tiddlylink:hover {
     margin-right: 0em;
 }*/
 
+[data-tiddler-title="index"] {
+    height: 25em !important;
+}
+
 [data-tiddler-title="index"], [data-tiddler-title="canciones"], [data-tiddler-title="entradas"], [data-tiddler-title="404"] {
     border: none;
-    height: 25em;
+    height: auto;
     margin-left: 0em;
     margin-right: 0em;
 }
