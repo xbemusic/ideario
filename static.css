@@ -132,7 +132,7 @@ button.tc-tiddlylink, a.tc-tiddlylink {
 background: transparent; 
 text-decoration: none; 
 animation-name: link-animation;
-animation-duration: 45s;
+animation-duration: 60s;
 animation-iteration-count: infinite;
 animation-direction: normal;
 /*font-size: 1.2em;*/ 
@@ -140,9 +140,9 @@ animation-direction: normal;
 
 @keyframes link-animation {
   0%   {color: rgb(0, 255, 108);}
-  33%  {color: rgb(0, 255, 196);}
-  67%  {color: rgb(0, 172, 255);}
- 100%   {color: rgb(0, 255, 108);}
+  50%  {color: rgb(0, 255, 196);}
+  99%  {color: rgb(0, 172, 255);}
+ /*100%   {color: rgb(0, 255, 108);}*/
 }
 
 [data-tags*="canción"] button.tc-tiddlylink, [data-tags*="canción"] a.tc-tiddlylink {
