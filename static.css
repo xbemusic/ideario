@@ -75,6 +75,12 @@ height: auto;
   width: 8em;
 }
 
+.s-r-i-t {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    color: #b0b0b0;
+}
+
 h1 {
     /* display: inline; */
     font-family: 'Epilogue', sans-serif;
