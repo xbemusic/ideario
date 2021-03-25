@@ -139,10 +139,10 @@ animation-direction: normal;
 }
 
 @keyframes link-animation {
-  0%   {color: rgb(0, 255, 108);}
-  34%  {color: rgb(0, 255, 196);}
-  67%  {color: rgb(0, 172, 255);}
- 100%   {color: rgb(0, 255, 108);}
+  0%   {color: rgb(88, 209, 139);} /*<<display-color "rgb(88, 209, 139)">>*/
+  34%  {color: rgb(53, 227, 187);} /*<<display-color "rgb(53, 227, 187)">>*/
+  67%  {color: rgb(85, 220, 242);} /*<<display-color "rgb(85, 220, 242)">>*/
+ 100%   {color: rgb(88, 209, 139);}/*<<display-color "rgb(88, 209, 139)">>*/
 }
 
 [data-tags*="canción"] button.tc-tiddlylink, [data-tags*="canción"] a.tc-tiddlylink {
